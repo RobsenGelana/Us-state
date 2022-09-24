@@ -8,7 +8,4 @@ image = 'blank_states_img.gif'
 turtle.addshape(image)
 turtle.shape(image)
 
-
-
-
-screen.exitonclick()
+user_guess = screen.textinput(title='Guess the state', prompt="What's other state name? ")
